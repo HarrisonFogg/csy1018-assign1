@@ -1,21 +1,22 @@
 
 
 body {
-    background-image: url(/Users/Harrison/Desktop/csy1018-projects/csy1018-assign1:/csy1018-assign1:images/indexbackground.png);
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-
+  /*background-image: url("indexbackgroud.png");*/
 
     font-family: 'Open Sans', sans-serif;
     font-size: 80%;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
 }
+
+html {
+  background: url(indexbackgroud.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
