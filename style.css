@@ -15,78 +15,44 @@ html {
     background-size: cover;
 }
 
-ul {
-    list-style-type: none;
+nav {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: #888;
+    display: block;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
 
-li {
-    float: left;
-    display: inline;
+
+#nav {
+    text-align: justify;
+    min-width: 500px;
 }
-
-.active {
-    background-color: #4CAF50;
-}
-
-a {
-    display: block;
-    padding: 4px;
-    background-color: #ffffff;
-
-
-}
-
-.nav ul {
-  list-style: none;
-  background-color: #ffffff;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
-
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
-}
-
-.nav a:hover {
-  background-color: #005f5f;
-}
-
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-}
-
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 300px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-
-  /* Option 1 - Display Inline */
-  .nav li {
+#nav:after {
+    content: '';
     display: inline-block;
-    margin-right: -4px;
-  }
+    width: 100%;
+}
+#nav li {
+    display: inline-block;
 
+}
 
-
+li a { text-decoration: none; color:#000; }
+li a:visited { text-decoration: none; color:#000; }
+li a:hover { text-decoration: none; color:#000; }
+li a:focus { text-decoration: none; color:#000; }
+li a:hover, .navBtn:active { text-decoration: none; color: #b30000; }
 
 .centered {
     position: fixed;
