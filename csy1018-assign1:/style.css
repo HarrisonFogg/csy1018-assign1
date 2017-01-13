@@ -1,0 +1,28 @@
+body {
+    background-color: lightblue;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    src: url('https://font.googleapis.com/css?family=Open+Sans')
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+em {
+    font-style: normal;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #ffd9b3), color-stop(0.15, #fbd4b9), color-stop(0.3, #b3b3ff), color-stop(0.45, #b3b3ff), color-stop(0.6, #b3b3ff), color-stop(0.75, #b3b3ff), color-stop(0.9, #b3b3ff), color-stop(1, #b3b3ff));
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2), color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 0.1em;
+}
