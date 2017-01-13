@@ -3,7 +3,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 80%;
     margin: 0px;
-
     /*background-color: darkgray;*/
 }
 
@@ -16,10 +15,10 @@ html {
 }
 
 nav {
-  text-decoration: none;
-  color: #000000;
-  font-family: 'Open Sans', sans-serif;
-
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2em;
     background-color: #fff;
     border: 1px solid #dedede;
     border-radius: 4px;
@@ -33,26 +32,45 @@ nav {
     padding: 0;
 }
 
-
 #nav {
     text-align: justify;
     min-width: 500px;
 }
+
 #nav:after {
     content: '';
     display: inline-block;
     width: 100%;
 }
+
 #nav li {
     display: inline-block;
-
 }
 
-li a { text-decoration: none; color:#000; }
-li a:visited { text-decoration: none; color:#000; }
-li a:hover { text-decoration: none; color:#000; }
-li a:focus { text-decoration: none; color:#000; }
-li a:hover, .navBtn:active { text-decoration: none; color: #b30000; }
+li a {
+    text-decoration: none;
+    color: #000;
+}
+
+li a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+li a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+li a:hover, .navBtn:active {
+    text-decoration: none;
+    color: #b30000;
+}
 
 .centered {
     position: fixed;
@@ -63,18 +81,50 @@ li a:hover, .navBtn:active { text-decoration: none; color: #b30000; }
 }
 
 #title {
-     width: 700px;
-     float:right;
-     margin-left: 20px;
-     margin-right: 20px;
- }
- #title1 {
-      width: 700px;
-      text-align:right;
-      margin-left: 20px;
-      margin-right: 20px;
-  }
+    width: 700px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+#title1 {
+    width: 700px;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* .inner {
+box-sizing : border-box;
+display : block;
+font-family : "Droid Sans", arial;
+height : 545.172px;
+margin-bottom : 0px;
+margin-left : 0px;
+margin-right : 0px;
+margin-top : 0px;
+max-width : 994px;
+min-width : 260px;
+padding-left : 22.4px;
+padding-right : 22.4px;
+text-align : center;
+text-rendering : optimizeLegibility;
+text-size-adjust : 100%;
+width : 870px;
+-webkit-font-smoothing : antialiased;
+} */
+.inner{
+box-sizing: border-box;
+display: block;
+font-family: "Droid Sans", arial;
+height: 2196px;
+min-width: 280px;
+text-rendering: optimizeLegibility;
+text-size-adjust: 100%;
+width: 870px;
+-webkit-font-smoothing: antialiased;
+}
 @font-face {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
