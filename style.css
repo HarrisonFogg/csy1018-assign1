@@ -41,7 +41,7 @@ a {
   background-color: #444;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: -8;
 }
 .nav li {
   font-family: 'Open Sans', sans-serif;
@@ -70,7 +70,7 @@ a {
 
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 180px;
+    width: 300px;
     border-bottom: none;
     height: 50px;
     line-height: 50px;
