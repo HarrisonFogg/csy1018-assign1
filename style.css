@@ -68,7 +68,12 @@ li a:hover, .navBtn:active { text-decoration: none; color: #b30000; }
      margin-left: 20px;
      margin-right: 20px;
  }
-
+ #title1 {
+      width: 700px;
+      text-align:right;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
 
 @font-face {
     font-family: 'Open Sans', sans-serif;
