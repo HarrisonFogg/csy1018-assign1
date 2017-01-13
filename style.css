@@ -3,13 +3,16 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 80%;
     margin: 0px;
-    /*background-color: darkgray;*/
+
 }
+
+
 
 html {
     background: url(indexbackgroud.png) no-repeat center center fixed;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
     min-height: 500px;
     background-position: center;
     background-size: cover;
